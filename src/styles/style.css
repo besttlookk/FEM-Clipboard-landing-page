@@ -1,0 +1,61 @@
+:root{
+  --col-blue:hsl(233, 100%, 69%);
+  --col-cyan:hsl(171, 66%, 44%);
+  --col-gray:hsl(201, 11%, 66%);
+  --col-dark:hsl(210, 10%, 33%)
+
+  --font-primary: 'Bai Jamjuree', sans-serif;
+
+}
+
+*,*::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar{
+  width: 1.8rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: var(--col-gray);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--col-cyan);
+  border-radius: 10rem;
+}
+
+body{
+  min-height: 100vh;
+  font: 18px;
+  font-family:'Bai Jamjuree', sans-serif;
+
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+h1,h2,h3{
+  font-weight: 600;
+  color:var(--col-dark);
+
+}
+
+p{
+  color:var(--col-gray)
+}
+
+
